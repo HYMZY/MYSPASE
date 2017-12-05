@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<Packages>
+		<Package name="qrcode-image-skins" pattern="dorado-css">
+			skins/~current/qrcode-image
+		</Package>
+		<Package name="qrcode-image" pattern="dorado-js" depends="base-widget,qrcode-image-skins">
+			scripts/dorado/qrcode-image,
+			resources/i18n/qrcode-image
+		</Package>
+	</Packages>
+</config>
